@@ -22,3 +22,59 @@ Left→Right swap.
 4. Remove duplicates from sorted array
 
 Two-pointer stable overwrite.
+
+🔥 Level 2 – Medium (Pointer movement based on condition)
+5. Container With Most Water (LeetCode #11)
+
+Tall bottles → max area find pannum.
+
+👉 Two pointer:
+if(height[left] < height[right]) left++; else right--;
+
+6. 3Sum Closest
+
+Array sorted.
+Three numbers sum → target-ukku closest.
+
+👉 Outer loop for i
+👉 Inside two pointer
+
+7. Sum of Two Values < K (count pairs)
+
+Condition-based pointer shifting.
+
+8. Count number of pairs with absolute difference = k
+🔥 Level 3 – Hard (Two-pointer + Sorting logic)
+9. 3Sum (nee ippo padichathu)
+
+Full two-pointer mastery.
+
+10. 4Sum
+
+Similar but two loops + two-pointer.
+
+11. Longest Substring without repeating characters
+
+Sliding window (two-pointer variant).
+
+12. Trapping Rain Water
+
+Two pointer alternate movement.
+
+🔥 Bonus: Special Two-Pointer Questions
+
+These check deep understanding:
+
+13. Move all zeros to end without changing order
+
+Input: [0,1,0,3,12]
+Output: [1,3,12,0,0]
+Two pointers: slow (write), fast (scan).
+
+14. Partition array: negative on left, positive on right
+
+Two-pointer swap logic.
+
+15. Find longest mountain in array
+
+Up + down sweeps.
